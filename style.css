@@ -104,3 +104,21 @@ header {
     height: auto;
     width: 100%;
 }
+
+.quote-container {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20%;
+}
+
+.quote-text {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.quote-author {
+    font-weight: 600;
+    font-size: 1.5rem;
+    align-self: flex-end;
+}
