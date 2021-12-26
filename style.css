@@ -25,3 +25,30 @@ header {
     font-size: 1.5rem;
     color: #e5e7eb;
 }
+
+.main-img {
+    height: auto;
+    width: 600px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    padding: 50px;
+    background-color: #1f2937;
+}
+
+.web-desc-container {
+    width: 40%;
+}
+
+.main-description {
+    font-size: 3rem;
+    color: #e5e7eb;
+}
+
+.sub-description {
+    font-size: 1.125rem;
+    color: #e5e7eb;
+}
