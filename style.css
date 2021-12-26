@@ -26,6 +26,10 @@ header {
     color: #e5e7eb;
 }
 
+.links a:hover {
+    color : #cbcfd6;
+}
+
 .main-img {
     height: auto;
     width: 600px;
@@ -60,6 +64,12 @@ header {
     border: 2px solid gray;
     border-radius: 8px;
     font-size: 1.25rem;
+}
+
+.main-container .signup-button:hover,
+.call-to-action-container .signup-button:hover {
+    cursor: pointer;
+    background-color: #246ee4;
 }
 
 .information-container {
