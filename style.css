@@ -53,7 +53,7 @@ header {
     color: #e5e7eb;
 }
 
-.signup-button {
+.main-container .signup-button {
     background-color: #3882f6;
     padding: 5px 8px;
     color: white;
@@ -121,4 +121,46 @@ header {
     font-weight: 600;
     font-size: 1.5rem;
     align-self: flex-end;
+}
+
+.call-to-action-container {
+    margin: 50px 150px;
+    padding: 50px 100px;
+    background-color: #3882f6;
+    border-radius: 8px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.call-to-action-header {
+    color: white;
+    font-size: 1.8rem;
+}
+
+.call-to-action-text {
+    color: white;
+    font-size: 1.4rem;
+    margin: 0;
+}
+
+.call-to-action-container .signup-button {
+    background-color: #3882f6;
+    flex-shrink: 0;
+    font-size: 1.4rem;
+    padding: 10px 30px;
+    border: 3px solid white;
+    color: white;
+    border-radius: 8px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    font-size: 1.25rem;
+    color: #f9faf9;
+    padding: 25px;
 }
